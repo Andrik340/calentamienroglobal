@@ -1,1 +1,1 @@
-texto para ejercicio sobre modificaciones en ramas 2
+ejerciciopara parapracticar el comando git diff
