@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo del Clima</title>
+    <title>Cambio Climático</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <!--Barra de navegación-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navBar-title" href="#">Cambio climático</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar toggler-icon"></span>
+        <a class="navbar-brand" href="#">Cambio Climático</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
@@ -23,12 +26,23 @@
                     <a class="nav-link" href="#efectos">Efectos</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#gases">Gases de Efecto Invernadero</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#deforestacion">Deforestación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#poblacion">Crecimiento Poblacional</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#soluciones">Soluciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#consecuencias">Consecuencias</a>
                 </li>
             </ul>
         </div>
     </nav>
-
 
     <!-- Sección de héroe -->
     <header class="jumbotron jumbotron-fluid text-center bg-info text-white">
@@ -40,71 +54,136 @@
 
     <!-- Sección Causas -->
     <section id="causas" class="container py-5">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
                 <h2>Causas del Cambio Climático</h2>
-                <p>La atmósfera terrestre está compuesta por diferentes gases que tienen como función mantener una temperatura apropiada para la vida. A este fenómeno natural se le llama efecto invernadero.
-
-                    Es necesario que exista equilibrio en la emisión de gases de efecto invernadero para conservar su justa proporción. Sin embargo, las actividades humanas han aumentado la producción de estos gases provocando el llamado calentamiento global, la principal de las causas del cambio climático.
-                    
-                    El ser humano es el responsable del cambio climático y sus emisiones de gases de efecto invernadero que calientan el planeta, como veremos más adelante. El gas más conocido es el CO2, causante del 63% del calentamiento global, pero existen otras causas:
-                    </p>
-        </div>
-                <div class="col-md-6">
-                    <img src="./img/causas.jpg" class="img-fluid" alt="Causas del Cambio Climático">
+                <p class="text-justify">La atmósfera terrestre está compuesta por diferentes gases que tienen como
+                    función mantener una temperatura apropiada para la vida. A este fenómeno natural se le llama efecto
+                    invernadero.</p>
+                <p class="text-justify">Es necesario que exista equilibrio en la emisión de gases de efecto invernadero
+                    para conservar su justa proporción. Sin embargo, las actividades humanas han aumentado la producción
+                    de estos gases provocando el llamado calentamiento global, la principal de las causas del cambio
+                    climático.</p>
             </div>
-                </div>
+            <div class="col-md-6 text-center">
+                <img src="./img/causas.jpg" class="img-fluid" alt="Causas del Cambio Climático">
+            </div>
+        </div>
     </section>
 
     <!-- Sección Efectos -->
-  <section id="efectos" class="bg-light py-5">
-    <div class="container">
-      <h2 class="text-center">Efectos del Cambio Climático git add</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Aumento de las temperaturas</h3>
-          <p>Las temperaturas globales están aumentando, lo que provoca cambios en los patrones climáticos.</p>
+    <section id="efectos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Efectos del Cambio Climático</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Aumento de las temperaturas</h3>
+                    <p class="text-justify">Las temperaturas globales están aumentando, lo que provoca cambios en los
+                        patrones climáticos.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Deshielo de los polos</h3>
+                    <p class="text-justify">El deshielo de los glaciares y capas polares está contribuyendo al aumento
+                        del nivel del mar.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Fenómenos extremos</h3>
+                    <p class="text-justify">Los fenómenos climáticos extremos, como huracanes y sequías, se están
+                        volviendo más frecuentes.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-          <h3>Deshielo de los polos</h3>
-          <p>El deshielo de los glaciares y capas polares está contribuyendo al aumento del nivel del mar.</p>
+    </section>
+
+    <!-- Sección Gases de Efecto Invernadero -->
+    <section id="gases" class="bg-light p-5">
+        <div class="container">
+            <h2>Gases de Efecto Invernadero</h2>
+            <ul>
+                <li>Dióxido de carbono (CO2)</li>
+                <li>Vapor de agua</li>
+                <li>Ozono (O3)</li>
+                <li>Metano (CH4)</li>
+                <li>Óxido nitroso (N2O)</li>
+                <li>Hexafluoruro de azufre (SF6)</li>
+            </ul>
+            <p>Estos gases son esenciales para mantener una temperatura adecuada en la Tierra, pero su aumento
+                descontrolado está causando el calentamiento global.</p>
         </div>
-        <div class="col-md-4">
-          <h3>Fenómenos extremos</h3>
-          <p>Los fenómenos climáticos extremos, como huracanes y sequías, se están volviendo más frecuentes.</p>
+    </section>
+
+    <!-- Sección Deforestación -->
+    <section id="deforestacion" class="p-5">
+        <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <h2>Deforestación</h2>
+            <p class="text-justify">La deforestación es un proceso provocado por el hombre, en el cual se elimina masa forestal, generalmente
+                para actividades agrícolas o urbanización. Los bosques son sumideros naturales de CO2, por lo que su
+                desaparición contribuye al aumento de este gas en la atmósfera, agravando el cambio climático.</p>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="col-md-6 text-center">
+            <img src="./img/Deforestacion.jpg" class="img-fluid" alt="Causas del Cambio Climático">
+        </div>
+        </div>
+    </section>
 
-  <!-- Sección Soluciones -->
-  <section id="soluciones" class="container py-5">
-    <h2 class="text-center">Soluciones al Cambio Climático</h2>
-    <p class="text-center">Existen muchas soluciones para frenar el cambio climático, como el uso de energías renovables, la reducción de emisiones de carbono y la conservación de la biodiversidad.</p>
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Reducción de emisiones</h3>
-        <p>Reducir el uso de combustibles fósiles y fomentar el uso de fuentes de energía limpia como la solar y eólica.</p>
-      </div>
-      <div class="col-md-6">
-        <img src="./img/soluciones.jpg" class="img-fluid" alt="Soluciones al Cambio Climático">
-      </div>
-    </div>
-  </section>
+    <!-- Sección Crecimiento Acelerado de la Población -->
+    <section id="poblacion" class="bg-light p-5">
+        <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <h2>Crecimiento Acelerado de la Población</h2>
+            <p class="text-justify">La población mundial está creciendo a un ritmo acelerado. Hoy en día, hay más de 7.700 millones de
+                personas en el planeta, y se espera que este número aumente a 9.700 millones para 2050. Este crecimiento
+                implica un aumento en el consumo de recursos y la producción de gases de efecto invernadero, lo que
+                acelera el cambio climático.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="./img/Crecimiento.jpg" class="img-fluid" alt="Causas del Cambio Climático">
+        </div>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>© 2024 Cambio Climático | Todos los derechos reservados</p>
-  </footer>
+    <!-- Sección Soluciones -->
+    <section id="soluciones" class="container py-5">
+        <h2 class="text-center">Soluciones al Cambio Climático</h2>
+        <p class="text-center">Existen muchas soluciones para frenar el cambio climático, como el uso de energías
+            renovables, la reducción de emisiones de carbono y la conservación de la biodiversidad.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Reducción de emisiones</h3>
+                <p class="text-justify">Reducir el uso de combustibles fósiles y fomentar el uso de fuentes de energía
+                    limpia como la solar y eólica.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./img/soluciones.jpg" class="img-fluid" alt="Soluciones al Cambio Climático">
+            </div>
+        </div>
+    </section>
 
+    <!-- Sección Consecuencias -->
+    <section id="consecuencias" class="p-5">
+        <div class="container">
+            <h2>Consecuencias del Cambio Climático</h2>
+            <ul>
+                <li>Acidificación y contaminación del agua.</li>
+                <li>Fenómenos meteorológicos extremos como huracanes, lluvias torrenciales y sequías.</li>
+                <li>Muerte, migración y extinción de especies animales.</li>
+                <li>Aumento del nivel del mar y derretimiento de los polos.</li>
+                <li>Aparición de enfermedades como el dengue y la malaria.</li>
+                <li>Agotamiento de los recursos naturales necesarios para la vida humana.</li>
+            </ul>
+        </div>
+    </section>
 
-
-
-
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Cambio Climático | Todos los derechos reservados</p>
+    </footer>
 
     <!--Scripts de Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
