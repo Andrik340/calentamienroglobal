@@ -1,0 +1,1 @@
+ejerciciopara parapracticar el comando git diff
