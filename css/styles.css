@@ -1,0 +1,10 @@
+
+.navBar-title {
+    color: #12a3dc;
+    font-weight: 700;
+}
+.navBar-title:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
